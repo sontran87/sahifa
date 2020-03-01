@@ -1,0 +1,894 @@
+
+#style_Switcher{
+	position:  fixed;
+	width: 200px;
+	top: 100px;
+	right: 0px;
+	background: #FFF;
+	padding: 13px 15px 10px;
+	border: 1px solid #ddd;
+	z-index:999999999999;
+}
+#tie-Settings{
+	width:50px;
+	height:50px;
+	display:block;
+	background: #FFF;
+	position:absolute;
+	left:-50px;
+	top:-1px;
+	border-left: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	cursor:pointer;
+	font-size:25px;
+	text-align:center;
+	line-height:50px;
+	color:#666;
+}
+
+#style_Switcher h5{
+	margin:0 0 15px;
+	display:block;
+	clear:both;
+	font-size:20px;
+	color:orange;
+	font-weight:bold;
+}
+#style_Switcher h6{
+	text-align:center;
+	margin:25px 0 10px;
+	display:block;
+	clear:both;
+	font-size:14px;
+	color:#888
+}
+#style_Switcher ul{
+	clear:both;
+	overflow:hidden;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #eee;
+}
+
+#style_Switcher ul li{
+	float:left;
+	list-style:none;
+	margin: 2px;
+}
+#style_Switcher ul li a{
+	display:block;
+	padding:5px 25px;
+	border:1px solid #E2E2E2;
+	color: #333;
+}
+#style_Switcher ul.theme-layout li a{
+	padding:5px 6px;
+	color: #333;
+}
+
+#style_Switcher ul.theme-colors li a{
+	border: 0 none !important;
+	padding: 19px 19px;
+}
+
+#style_Switcher ul.theme-colors li a span{
+	display: none;
+	color: #FFF;
+}
+
+#style_Switcher ul li a:hover{
+	background: #f2f2f2;
+	border-color: #CCC;
+	color: orange !important;
+}
+
+#theme_buy_now{
+	margin: -5px auto 10px;
+	display:block;
+	width: 122px;
+	background: #7FCB17;
+}
+
+
+/* Colors */
+body.color-1abc9c #main-nav,
+body.color-1abc9c .cat-box-content,
+body.color-1abc9c #sidebar .widget-container,
+body.color-1abc9c .post-listing,
+body.color-1abc9c #commentform {
+	border-bottom-color: #1abc9c;
+}
+body.color-1abc9c .search-block .search-button,
+body.color-1abc9c #topcontrol,
+body.color-1abc9c #main-nav ul li.current-menu-item a,
+body.color-1abc9c #main-nav ul li.current-menu-item a:hover,
+body.color-1abc9c #main-nav ul li.current_page_parent a,
+body.color-1abc9c #main-nav ul li.current_page_parent a:hover,
+body.color-1abc9c #main-nav ul li.current-menu-parent a,
+body.color-1abc9c #main-nav ul li.current-menu-parent a:hover,
+body.color-1abc9c #main-nav ul li.current-page-ancestor a,
+body.color-1abc9c #main-nav ul li.current-page-ancestor a:hover,
+body.color-1abc9c .pagination span.current,
+body.color-1abc9c .share-post span.share-text,
+body.color-1abc9c .flex-control-paging li a.flex-active,
+body.color-1abc9c .ei-slider-thumbs li.ei-slider-element,
+body.color-1abc9c .review-percentage .review-item span span,
+body.color-1abc9c .review-final-score,
+body.color-1abc9c .button,
+body.color-1abc9c a.button,
+body.color-1abc9c a.more-link,
+body.color-1abc9c #main-content input[type="submit"],
+body.color-1abc9c .form-submit #submit,
+body.color-1abc9c #login-form .login-button,
+body.color-1abc9c .widget-feedburner .feedburner-subscribe,
+body.color-1abc9c input[type="submit"],
+body.color-1abc9c #buddypress button,
+body.color-1abc9c #buddypress a.button,
+body.color-1abc9c #buddypress input[type=submit],
+body.color-1abc9c #buddypress input[type=reset],
+body.color-1abc9c #buddypress ul.button-nav li a,
+body.color-1abc9c #buddypress div.generic-button a,
+body.color-1abc9c #buddypress .comment-reply-link,
+body.color-1abc9c #buddypress div.item-list-tabs ul li a span,
+body.color-1abc9c #buddypress div.item-list-tabs ul li.selected a,
+body.color-1abc9c #buddypress div.item-list-tabs ul li.current a,
+body.color-1abc9c #buddypress #members-directory-form div.item-list-tabs ul li.selected span,
+body.color-1abc9c #members-list-options a.selected,
+body.color-1abc9c #groups-list-options a.selected,
+body.color-1abc9c.dark-skin #buddypress div.item-list-tabs ul li a span,
+body.color-1abc9c.dark-skin #buddypress div.item-list-tabs ul li.selected a,
+body.color-1abc9c.dark-skin #buddypress div.item-list-tabs ul li.current a,
+body.color-1abc9c.dark-skin #members-list-options a.selected,
+body.color-1abc9c.dark-skin #groups-list-options a.selected,
+body.color-1abc9c .search-block-large .search-button,
+body.color-1abc9c #featured-posts .flex-next:hover,
+body.color-1abc9c #featured-posts .flex-prev:hover,
+body.color-1abc9c a.tie-cart span.shooping-count,
+body.color-1abc9c .woocommerce span.onsale,
+body.color-1abc9c.woocommerce-page span.onsale ,
+body.color-1abc9c.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-1abc9c.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-1abc9c #check-also-close,
+body.color-1abc9c a.post-slideshow-next,
+body.color-1abc9c a.post-slideshow-prev,
+body.color-1abc9c .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-1abc9c .quantity .minus:hover,
+body.color-1abc9c .quantity .plus:hover,
+body.color-1abc9c .mejs-container .mejs-controls .mejs-time-rail .mejs-time-current  {
+	background-color:#1abc9c;
+}
+body.color-1abc9c footer#theme-footer,
+body.color-1abc9c header#theme-header,
+body.color-1abc9c .top-nav ul li.current-menu-item:before,
+body.color-1abc9c #main-nav .menu-sub-content ,
+body.color-1abc9c #main-nav ul ul,
+body.color-1abc9c #check-also-box { 
+	border-top-color: #1abc9c;
+}
+body.color-1abc9c .search-block:after {
+	border-right-color:#1abc9c;
+}
+body.rtl.color-1abc9c .search-block:after {
+	border-left-color:#1abc9c;
+}
+body.color-1abc9c #main-nav ul > li.menu-item-has-children:hover > a:after,
+body.color-1abc9c #main-nav ul > li.mega-menu:hover > a:after {
+	border-color:transparent transparent #1abc9c;
+}
+body.color-1abc9c .widget.timeline-posts li a:hover,
+body.color-1abc9c .widget.timeline-posts li a:hover span.tie-date,
+body.color-1abc9c #style_Switcher h4 {
+	color: #1abc9c;
+}
+body.color-1abc9c .widget.timeline-posts li a:hover span.tie-date:before {
+	background: #1abc9c;
+	border-color: #1abc9c;
+}
+body.color-1abc9c #order_review,
+body.color-1abc9c #order_review_heading {
+	border-color: #1abc9c;
+}
+
+/**/
+body.color-2ecc71 #main-nav,
+body.color-2ecc71 .cat-box-content,
+body.color-2ecc71 #sidebar .widget-container,
+body.color-2ecc71 .post-listing,
+body.color-2ecc71 #commentform {
+	border-bottom-color: #2ecc71;
+}
+body.color-2ecc71 .search-block .search-button,
+body.color-2ecc71 #topcontrol,
+body.color-2ecc71 #main-nav ul li.current-menu-item a,
+body.color-2ecc71 #main-nav ul li.current-menu-item a:hover,
+body.color-2ecc71 #main-nav ul li.current_page_parent a,
+body.color-2ecc71 #main-nav ul li.current_page_parent a:hover,
+body.color-2ecc71 #main-nav ul li.current-menu-parent a,
+body.color-2ecc71 #main-nav ul li.current-menu-parent a:hover,
+body.color-2ecc71 #main-nav ul li.current-page-ancestor a,
+body.color-2ecc71 #main-nav ul li.current-page-ancestor a:hover,
+body.color-2ecc71 .pagination span.current,
+body.color-2ecc71 .share-post span.share-text,
+body.color-2ecc71 .flex-control-paging li a.flex-active,
+body.color-2ecc71 .ei-slider-thumbs li.ei-slider-element,
+body.color-2ecc71 .review-percentage .review-item span span,
+body.color-2ecc71 .review-final-score,
+body.color-2ecc71 .button,
+body.color-2ecc71 a.button,
+body.color-2ecc71 a.more-link,
+body.color-2ecc71 #main-content input[type="submit"],
+body.color-2ecc71 .form-submit #submit,
+body.color-2ecc71 #login-form .login-button,
+body.color-2ecc71 .widget-feedburner .feedburner-subscribe,
+body.color-2ecc71 input[type="submit"],
+body.color-2ecc71 #buddypress button,
+body.color-2ecc71 #buddypress a.button,
+body.color-2ecc71 #buddypress input[type=submit],
+body.color-2ecc71 #buddypress input[type=reset],
+body.color-2ecc71 #buddypress ul.button-nav li a,
+body.color-2ecc71 #buddypress div.generic-button a,
+body.color-2ecc71 #buddypress .comment-reply-link,
+body.color-2ecc71 #buddypress div.item-list-tabs ul li a span,
+body.color-2ecc71 #buddypress div.item-list-tabs ul li.selected a,
+body.color-2ecc71 #buddypress div.item-list-tabs ul li.current a,
+body.color-2ecc71 #buddypress #members-directory-form div.item-list-tabs ul li.selected span,
+body.color-2ecc71 #members-list-options a.selected,
+body.color-2ecc71 #groups-list-options a.selected,
+body.color-2ecc71.dark-skin #buddypress div.item-list-tabs ul li a span,
+body.color-2ecc71.dark-skin #buddypress div.item-list-tabs ul li.selected a,
+body.color-2ecc71.dark-skin #buddypress div.item-list-tabs ul li.current a,
+body.color-2ecc71.dark-skin #members-list-options a.selected,
+body.color-2ecc71.dark-skin #groups-list-options a.selected,
+body.color-2ecc71 .search-block-large .search-button,
+body.color-2ecc71 #featured-posts .flex-next:hover,
+body.color-2ecc71 #featured-posts .flex-prev:hover,
+body.color-2ecc71 a.tie-cart span.shooping-count,
+body.color-2ecc71 .woocommerce span.onsale,
+body.color-2ecc71.woocommerce-page span.onsale ,
+body.color-2ecc71.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-2ecc71.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-2ecc71 #check-also-close,
+body.color-2ecc71 a.post-slideshow-next,
+body.color-2ecc71 a.post-slideshow-prev,
+body.color-2ecc71 .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-2ecc71 .quantity .minus:hover,
+body.color-2ecc71 .quantity .plus:hover,
+body.color-2ecc71 .mejs-container .mejs-controls .mejs-time-rail .mejs-time-current  {
+	background-color:#2ecc71;
+}
+body.color-2ecc71 footer#theme-footer,
+body.color-2ecc71 header#theme-header,
+body.color-2ecc71 .top-nav ul li.current-menu-item:before,
+body.color-2ecc71 #main-nav .menu-sub-content ,
+body.color-2ecc71 #main-nav ul ul,
+body.color-2ecc71 #check-also-box { 
+	border-top-color: #2ecc71;
+}
+body.color-2ecc71 .search-block:after {
+	border-right-color:#2ecc71;
+}
+body.rtl.color-2ecc71 .search-block:after {
+	border-left-color:#2ecc71;
+}
+body.color-2ecc71 #main-nav ul > li.menu-item-has-children:hover > a:after,
+body.color-2ecc71 #main-nav ul > li.mega-menu:hover > a:after {
+	border-color:transparent transparent #2ecc71;
+}
+body.color-2ecc71 .widget.timeline-posts li a:hover,
+body.color-2ecc71 .widget.timeline-posts li a:hover span.tie-date,
+body.color-2ecc71 #style_Switcher h4  {
+	color: #2ecc71;
+}
+body.color-2ecc71 .widget.timeline-posts li a:hover span.tie-date:before {
+	background: #2ecc71;
+	border-color: #2ecc71;
+}
+body.color-2ecc71 #order_review,
+body.color-2ecc71 #order_review_heading {
+	border-color: #2ecc71;
+}
+
+/**/
+body.color-3498db #main-nav,
+body.color-3498db .cat-box-content,
+body.color-3498db #sidebar .widget-container,
+body.color-3498db .post-listing,
+body.color-3498db #commentform {
+	border-bottom-color: #3498db;
+}
+body.color-3498db .search-block .search-button,
+body.color-3498db #topcontrol,
+body.color-3498db #main-nav ul li.current-menu-item a,
+body.color-3498db #main-nav ul li.current-menu-item a:hover,
+body.color-3498db #main-nav ul li.current_page_parent a,
+body.color-3498db #main-nav ul li.current_page_parent a:hover,
+body.color-3498db #main-nav ul li.current-menu-parent a,
+body.color-3498db #main-nav ul li.current-menu-parent a:hover,
+body.color-3498db #main-nav ul li.current-page-ancestor a,
+body.color-3498db #main-nav ul li.current-page-ancestor a:hover,
+body.color-3498db .pagination span.current,
+body.color-3498db .share-post span.share-text,
+body.color-3498db .flex-control-paging li a.flex-active,
+body.color-3498db .ei-slider-thumbs li.ei-slider-element,
+body.color-3498db .review-percentage .review-item span span,
+body.color-3498db .review-final-score,
+body.color-3498db .button,
+body.color-3498db a.button,
+body.color-3498db a.more-link,
+body.color-3498db #main-content input[type="submit"],
+body.color-3498db .form-submit #submit,
+body.color-3498db #login-form .login-button,
+body.color-3498db .widget-feedburner .feedburner-subscribe,
+body.color-3498db input[type="submit"],
+body.color-3498db #buddypress button,
+body.color-3498db #buddypress a.button,
+body.color-3498db #buddypress input[type=submit],
+body.color-3498db #buddypress input[type=reset],
+body.color-3498db #buddypress ul.button-nav li a,
+body.color-3498db #buddypress div.generic-button a,
+body.color-3498db #buddypress .comment-reply-link,
+body.color-3498db #buddypress div.item-list-tabs ul li a span,
+body.color-3498db #buddypress div.item-list-tabs ul li.selected a,
+body.color-3498db #buddypress div.item-list-tabs ul li.current a,
+body.color-3498db #buddypress #members-directory-form div.item-list-tabs ul li.selected span,
+body.color-3498db #members-list-options a.selected,
+body.color-3498db #groups-list-options a.selected,
+body.color-3498db.dark-skin #buddypress div.item-list-tabs ul li a span,
+body.color-3498db.dark-skin #buddypress div.item-list-tabs ul li.selected a,
+body.color-3498db.dark-skin #buddypress div.item-list-tabs ul li.current a,
+body.color-3498db.dark-skin #members-list-options a.selected,
+body.color-3498db.dark-skin #groups-list-options a.selected,
+body.color-3498db .search-block-large .search-button,
+body.color-3498db #featured-posts .flex-next:hover,
+body.color-3498db #featured-posts .flex-prev:hover,
+body.color-3498db a.tie-cart span.shooping-count,
+body.color-3498db .woocommerce span.onsale,
+body.color-3498db.woocommerce-page span.onsale ,
+body.color-3498db.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-3498db.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-3498db #check-also-close,
+body.color-3498db a.post-slideshow-next,
+body.color-3498db a.post-slideshow-prev,
+body.color-3498db .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-3498db .quantity .minus:hover,
+body.color-3498db .quantity .plus:hover,
+body.color-3498db .mejs-container .mejs-controls .mejs-time-rail .mejs-time-current  {
+	background-color:#3498db;
+}
+body.color-3498db footer#theme-footer,
+body.color-3498db header#theme-header,
+body.color-3498db .top-nav ul li.current-menu-item:before,
+body.color-3498db #main-nav .menu-sub-content ,
+body.color-3498db #main-nav ul ul,
+body.color-3498db #check-also-box { 
+	border-top-color: #3498db;
+}
+body.color-3498db .search-block:after {
+	border-right-color:#3498db;
+}
+body.rtl.color-3498db .search-block:after {
+	border-left-color:#3498db;
+}
+body.color-3498db #main-nav ul > li.menu-item-has-children:hover > a:after,
+body.color-3498db #main-nav ul > li.mega-menu:hover > a:after {
+	border-color:transparent transparent #3498db;
+}
+body.color-3498db .widget.timeline-posts li a:hover,
+body.color-3498db .widget.timeline-posts li a:hover span.tie-date,
+body.color-3498db #style_Switcher h4  {
+	color: #3498db;
+}
+body.color-3498db .widget.timeline-posts li a:hover span.tie-date:before {
+	background: #3498db;
+	border-color: #3498db;
+}
+body.color-3498db #order_review,
+body.color-3498db #order_review_heading {
+	border-color: #3498db;
+}
+
+/**/
+
+body.color-9b59b6 #main-nav,
+body.color-9b59b6 .cat-box-content,
+body.color-9b59b6 #sidebar .widget-container,
+body.color-9b59b6 .post-listing,
+body.color-9b59b6 #commentform {
+	border-bottom-color: #9b59b6;
+}
+body.color-9b59b6 .search-block .search-button,
+body.color-9b59b6 #topcontrol,
+body.color-9b59b6 #main-nav ul li.current-menu-item a,
+body.color-9b59b6 #main-nav ul li.current-menu-item a:hover,
+body.color-9b59b6 #main-nav ul li.current_page_parent a,
+body.color-9b59b6 #main-nav ul li.current_page_parent a:hover,
+body.color-9b59b6 #main-nav ul li.current-menu-parent a,
+body.color-9b59b6 #main-nav ul li.current-menu-parent a:hover,
+body.color-9b59b6 #main-nav ul li.current-page-ancestor a,
+body.color-9b59b6 #main-nav ul li.current-page-ancestor a:hover,
+body.color-9b59b6 .pagination span.current,
+body.color-9b59b6 .share-post span.share-text,
+body.color-9b59b6 .flex-control-paging li a.flex-active,
+body.color-9b59b6 .ei-slider-thumbs li.ei-slider-element,
+body.color-9b59b6 .review-percentage .review-item span span,
+body.color-9b59b6 .review-final-score,
+body.color-9b59b6 .button,
+body.color-9b59b6 a.button,
+body.color-9b59b6 a.more-link,
+body.color-9b59b6 #main-content input[type="submit"],
+body.color-9b59b6 .form-submit #submit,
+body.color-9b59b6 #login-form .login-button,
+body.color-9b59b6 .widget-feedburner .feedburner-subscribe,
+body.color-9b59b6 input[type="submit"],
+body.color-9b59b6 #buddypress button,
+body.color-9b59b6 #buddypress a.button,
+body.color-9b59b6 #buddypress input[type=submit],
+body.color-9b59b6 #buddypress input[type=reset],
+body.color-9b59b6 #buddypress ul.button-nav li a,
+body.color-9b59b6 #buddypress div.generic-button a,
+body.color-9b59b6 #buddypress .comment-reply-link,
+body.color-9b59b6 #buddypress div.item-list-tabs ul li a span,
+body.color-9b59b6 #buddypress div.item-list-tabs ul li.selected a,
+body.color-9b59b6 #buddypress div.item-list-tabs ul li.current a,
+body.color-9b59b6 #buddypress #members-directory-form div.item-list-tabs ul li.selected span,
+body.color-9b59b6 #members-list-options a.selected,
+body.color-9b59b6 #groups-list-options a.selected,
+body.color-9b59b6.dark-skin #buddypress div.item-list-tabs ul li a span,
+body.color-9b59b6.dark-skin #buddypress div.item-list-tabs ul li.selected a,
+body.color-9b59b6.dark-skin #buddypress div.item-list-tabs ul li.current a,
+body.color-9b59b6.dark-skin #members-list-options a.selected,
+body.color-9b59b6.dark-skin #groups-list-options a.selected,
+body.color-9b59b6 .search-block-large .search-button,
+body.color-9b59b6 #featured-posts .flex-next:hover,
+body.color-9b59b6 #featured-posts .flex-prev:hover,
+body.color-9b59b6 a.tie-cart span.shooping-count,
+body.color-9b59b6 .woocommerce span.onsale,
+body.color-9b59b6.woocommerce-page span.onsale ,
+body.color-9b59b6.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-9b59b6.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-9b59b6 #check-also-close,
+body.color-9b59b6 a.post-slideshow-next,
+body.color-9b59b6 a.post-slideshow-prev,
+body.color-9b59b6 .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-9b59b6 .quantity .minus:hover,
+body.color-9b59b6 .quantity .plus:hover,
+body.color-9b59b6 .mejs-container .mejs-controls .mejs-time-rail .mejs-time-current  {
+	background-color:#9b59b6;
+}
+body.color-9b59b6 footer#theme-footer,
+body.color-9b59b6 header#theme-header,
+body.color-9b59b6 .top-nav ul li.current-menu-item:before,
+body.color-9b59b6 #main-nav .menu-sub-content ,
+body.color-9b59b6 #main-nav ul ul,
+body.color-9b59b6 #check-also-box { 
+	border-top-color: #9b59b6;
+}
+body.color-9b59b6 .search-block:after {
+	border-right-color:#9b59b6;
+}
+body.rtl.color-9b59b6 .search-block:after {
+	border-left-color:#9b59b6;
+}
+body.color-9b59b6 #main-nav ul > li.menu-item-has-children:hover > a:after,
+body.color-9b59b6 #main-nav ul > li.mega-menu:hover > a:after {
+	border-color:transparent transparent #9b59b6;
+}
+body.color-9b59b6 .widget.timeline-posts li a:hover,
+body.color-9b59b6 .widget.timeline-posts li a:hover span.tie-date,
+body.color-9b59b6 #style_Switcher h4  {
+	color: #9b59b6;
+}
+body.color-9b59b6 .widget.timeline-posts li a:hover span.tie-date:before {
+	background: #9b59b6;
+	border-color: #9b59b6;
+}
+body.color-9b59b6 #order_review,
+body.color-9b59b6 #order_review_heading {
+	border-color: #9b59b6;
+}
+
+/**/
+
+body.color-34495e #main-nav,
+body.color-34495e .cat-box-content,
+body.color-34495e #sidebar .widget-container,
+body.color-34495e .post-listing,
+body.color-34495e #commentform {
+	border-bottom-color: #34495e;
+}
+body.color-34495e .search-block .search-button,
+body.color-34495e #topcontrol,
+body.color-34495e #main-nav ul li.current-menu-item a,
+body.color-34495e #main-nav ul li.current-menu-item a:hover,
+body.color-34495e #main-nav ul li.current_page_parent a,
+body.color-34495e #main-nav ul li.current_page_parent a:hover,
+body.color-34495e #main-nav ul li.current-menu-parent a,
+body.color-34495e #main-nav ul li.current-menu-parent a:hover,
+body.color-34495e #main-nav ul li.current-page-ancestor a,
+body.color-34495e #main-nav ul li.current-page-ancestor a:hover,
+body.color-34495e .pagination span.current,
+body.color-34495e .share-post span.share-text,
+body.color-34495e .flex-control-paging li a.flex-active,
+body.color-34495e .ei-slider-thumbs li.ei-slider-element,
+body.color-34495e .review-percentage .review-item span span,
+body.color-34495e .review-final-score,
+body.color-34495e .button,
+body.color-34495e a.button,
+body.color-34495e a.more-link,
+body.color-34495e #main-content input[type="submit"],
+body.color-34495e .form-submit #submit,
+body.color-34495e #login-form .login-button,
+body.color-34495e .widget-feedburner .feedburner-subscribe,
+body.color-34495e input[type="submit"],
+body.color-34495e #buddypress button,
+body.color-34495e #buddypress a.button,
+body.color-34495e #buddypress input[type=submit],
+body.color-34495e #buddypress input[type=reset],
+body.color-34495e #buddypress ul.button-nav li a,
+body.color-34495e #buddypress div.generic-button a,
+body.color-34495e #buddypress .comment-reply-link,
+body.color-34495e #buddypress div.item-list-tabs ul li a span,
+body.color-34495e #buddypress div.item-list-tabs ul li.selected a,
+body.color-34495e #buddypress div.item-list-tabs ul li.current a,
+body.color-34495e #buddypress #members-directory-form div.item-list-tabs ul li.selected span,
+body.color-34495e #members-list-options a.selected,
+body.color-34495e #groups-list-options a.selected,
+body.color-34495e.dark-skin #buddypress div.item-list-tabs ul li a span,
+body.color-34495e.dark-skin #buddypress div.item-list-tabs ul li.selected a,
+body.color-34495e.dark-skin #buddypress div.item-list-tabs ul li.current a,
+body.color-34495e.dark-skin #members-list-options a.selected,
+body.color-34495e.dark-skin #groups-list-options a.selected,
+body.color-34495e .search-block-large .search-button,
+body.color-34495e #featured-posts .flex-next:hover,
+body.color-34495e #featured-posts .flex-prev:hover,
+body.color-34495e a.tie-cart span.shooping-count,
+body.color-34495e .woocommerce span.onsale,
+body.color-34495e.woocommerce-page span.onsale ,
+body.color-34495e.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-34495e.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-34495e #check-also-close,
+body.color-34495e a.post-slideshow-next,
+body.color-34495e a.post-slideshow-prev,
+body.color-34495e .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-34495e .quantity .minus:hover,
+body.color-34495e .quantity .plus:hover,
+body.color-34495e .mejs-container .mejs-controls .mejs-time-rail .mejs-time-current  {
+	background-color:#34495e;
+}
+body.color-34495e footer#theme-footer,
+body.color-34495e header#theme-header,
+body.color-34495e .top-nav ul li.current-menu-item:before,
+body.color-34495e #main-nav .menu-sub-content ,
+body.color-34495e #main-nav ul ul,
+body.color-34495e #check-also-box { 
+	border-top-color: #34495e;
+}
+body.color-34495e .search-block:after {
+	border-right-color:#34495e;
+}
+body.rtl.color-34495e .search-block:after {
+	border-left-color:#34495e;
+}
+body.color-34495e #main-nav ul > li.menu-item-has-children:hover > a:after,
+body.color-34495e #main-nav ul > li.mega-menu:hover > a:after {
+	border-color:transparent transparent #34495e;
+}
+body.color-34495e .widget.timeline-posts li a:hover,
+body.color-34495e .widget.timeline-posts li a:hover span.tie-date,
+body.color-34495e #style_Switcher h4  {
+	color: #34495e;
+}
+body.color-34495e .widget.timeline-posts li a:hover span.tie-date:before {
+	background: #34495e;
+	border-color: #34495e;
+}
+body.color-34495e #order_review,
+body.color-34495e #order_review_heading {
+	border-color: #34495e;
+}
+
+/**/
+
+body.color-f1c40f #main-nav,
+body.color-f1c40f .cat-box-content,
+body.color-f1c40f #sidebar .widget-container,
+body.color-f1c40f .post-listing,
+body.color-f1c40f #commentform {
+	border-bottom-color: #f1c40f;
+}
+body.color-f1c40f .search-block .search-button,
+body.color-f1c40f #topcontrol,
+body.color-f1c40f #main-nav ul li.current-menu-item a,
+body.color-f1c40f #main-nav ul li.current-menu-item a:hover,
+body.color-f1c40f #main-nav ul li.current_page_parent a,
+body.color-f1c40f #main-nav ul li.current_page_parent a:hover,
+body.color-f1c40f #main-nav ul li.current-menu-parent a,
+body.color-f1c40f #main-nav ul li.current-menu-parent a:hover,
+body.color-f1c40f #main-nav ul li.current-page-ancestor a,
+body.color-f1c40f #main-nav ul li.current-page-ancestor a:hover,
+body.color-f1c40f .pagination span.current,
+body.color-f1c40f .share-post span.share-text,
+body.color-f1c40f .flex-control-paging li a.flex-active,
+body.color-f1c40f .ei-slider-thumbs li.ei-slider-element,
+body.color-f1c40f .review-percentage .review-item span span,
+body.color-f1c40f .review-final-score,
+body.color-f1c40f .button,
+body.color-f1c40f a.button,
+body.color-f1c40f a.more-link,
+body.color-f1c40f #main-content input[type="submit"],
+body.color-f1c40f .form-submit #submit,
+body.color-f1c40f #login-form .login-button,
+body.color-f1c40f .widget-feedburner .feedburner-subscribe,
+body.color-f1c40f input[type="submit"],
+body.color-f1c40f #buddypress button,
+body.color-f1c40f #buddypress a.button,
+body.color-f1c40f #buddypress input[type=submit],
+body.color-f1c40f #buddypress input[type=reset],
+body.color-f1c40f #buddypress ul.button-nav li a,
+body.color-f1c40f #buddypress div.generic-button a,
+body.color-f1c40f #buddypress .comment-reply-link,
+body.color-f1c40f #buddypress div.item-list-tabs ul li a span,
+body.color-f1c40f #buddypress div.item-list-tabs ul li.selected a,
+body.color-f1c40f #buddypress div.item-list-tabs ul li.current a,
+body.color-f1c40f #buddypress #members-directory-form div.item-list-tabs ul li.selected span,
+body.color-f1c40f #members-list-options a.selected,
+body.color-f1c40f #groups-list-options a.selected,
+body.color-f1c40f.dark-skin #buddypress div.item-list-tabs ul li a span,
+body.color-f1c40f.dark-skin #buddypress div.item-list-tabs ul li.selected a,
+body.color-f1c40f.dark-skin #buddypress div.item-list-tabs ul li.current a,
+body.color-f1c40f.dark-skin #members-list-options a.selected,
+body.color-f1c40f.dark-skin #groups-list-options a.selected,
+body.color-f1c40f .search-block-large .search-button,
+body.color-f1c40f #featured-posts .flex-next:hover,
+body.color-f1c40f #featured-posts .flex-prev:hover,
+body.color-f1c40f a.tie-cart span.shooping-count,
+body.color-f1c40f .woocommerce span.onsale,
+body.color-f1c40f.woocommerce-page span.onsale ,
+body.color-f1c40f.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-f1c40f.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-f1c40f #check-also-close,
+body.color-f1c40f a.post-slideshow-next,
+body.color-f1c40f a.post-slideshow-prev,
+body.color-f1c40f .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-f1c40f .quantity .minus:hover,
+body.color-f1c40f .quantity .plus:hover,
+body.color-f1c40f .mejs-container .mejs-controls .mejs-time-rail .mejs-time-current  {
+	background-color:#f1c40f;
+}
+body.color-f1c40f footer#theme-footer,
+body.color-f1c40f header#theme-header,
+body.color-f1c40f .top-nav ul li.current-menu-item:before,
+body.color-f1c40f #main-nav .menu-sub-content ,
+body.color-f1c40f #main-nav ul ul,
+body.color-f1c40f #check-also-box { 
+	border-top-color: #f1c40f;
+}
+body.color-f1c40f .search-block:after {
+	border-right-color:#f1c40f;
+}
+body.rtl.color-f1c40f .search-block:after {
+	border-left-color:#f1c40f;
+}
+body.color-f1c40f #main-nav ul > li.menu-item-has-children:hover > a:after,
+body.color-f1c40f #main-nav ul > li.mega-menu:hover > a:after {
+	border-color:transparent transparent #f1c40f;
+}
+body.color-f1c40f .widget.timeline-posts li a:hover,
+body.color-f1c40f .widget.timeline-posts li a:hover span.tie-date,
+body.color-f1c40f #style_Switcher h4 {
+	color: #f1c40f;
+}
+body.color-f1c40f .widget.timeline-posts li a:hover span.tie-date:before {
+	background: #f1c40f;
+	border-color: #f1c40f;
+}
+body.color-f1c40f #order_review,
+body.color-f1c40f #order_review_heading {
+	border-color: #f1c40f;
+}
+
+/**/
+body.color-e67e22 #main-nav,
+body.color-e67e22 .cat-box-content,
+body.color-e67e22 #sidebar .widget-container,
+body.color-e67e22 .post-listing,
+body.color-e67e22 #commentform {
+	border-bottom-color: #e67e22;
+}
+body.color-e67e22 .search-block .search-button,
+body.color-e67e22 #topcontrol,
+body.color-e67e22 #main-nav ul li.current-menu-item a,
+body.color-e67e22 #main-nav ul li.current-menu-item a:hover,
+body.color-e67e22 #main-nav ul li.current_page_parent a,
+body.color-e67e22 #main-nav ul li.current_page_parent a:hover,
+body.color-e67e22 #main-nav ul li.current-menu-parent a,
+body.color-e67e22 #main-nav ul li.current-menu-parent a:hover,
+body.color-e67e22 #main-nav ul li.current-page-ancestor a,
+body.color-e67e22 #main-nav ul li.current-page-ancestor a:hover,
+body.color-e67e22 .pagination span.current,
+body.color-e67e22 .share-post span.share-text,
+body.color-e67e22 .flex-control-paging li a.flex-active,
+body.color-e67e22 .ei-slider-thumbs li.ei-slider-element,
+body.color-e67e22 .review-percentage .review-item span span,
+body.color-e67e22 .review-final-score,
+body.color-e67e22 .button,
+body.color-e67e22 a.button,
+body.color-e67e22 a.more-link,
+body.color-e67e22 #main-content input[type="submit"],
+body.color-e67e22 .form-submit #submit,
+body.color-e67e22 #login-form .login-button,
+body.color-e67e22 .widget-feedburner .feedburner-subscribe,
+body.color-e67e22 input[type="submit"],
+body.color-e67e22 #buddypress button,
+body.color-e67e22 #buddypress a.button,
+body.color-e67e22 #buddypress input[type=submit],
+body.color-e67e22 #buddypress input[type=reset],
+body.color-e67e22 #buddypress ul.button-nav li a,
+body.color-e67e22 #buddypress div.generic-button a,
+body.color-e67e22 #buddypress .comment-reply-link,
+body.color-e67e22 #buddypress div.item-list-tabs ul li a span,
+body.color-e67e22 #buddypress div.item-list-tabs ul li.selected a,
+body.color-e67e22 #buddypress div.item-list-tabs ul li.current a,
+body.color-e67e22 #buddypress #members-directory-form div.item-list-tabs ul li.selected span,
+body.color-e67e22 #members-list-options a.selected,
+body.color-e67e22 #groups-list-options a.selected,
+body.color-e67e22.dark-skin #buddypress div.item-list-tabs ul li a span,
+body.color-e67e22.dark-skin #buddypress div.item-list-tabs ul li.selected a,
+body.color-e67e22.dark-skin #buddypress div.item-list-tabs ul li.current a,
+body.color-e67e22.dark-skin #members-list-options a.selected,
+body.color-e67e22.dark-skin #groups-list-options a.selected,
+body.color-e67e22 .search-block-large .search-button,
+body.color-e67e22 #featured-posts .flex-next:hover,
+body.color-e67e22 #featured-posts .flex-prev:hover,
+body.color-e67e22 a.tie-cart span.shooping-count,
+body.color-e67e22 .woocommerce span.onsale,
+body.color-e67e22.woocommerce-page span.onsale ,
+body.color-e67e22.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-e67e22.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-e67e22 #check-also-close,
+body.color-e67e22 a.post-slideshow-next,
+body.color-e67e22 a.post-slideshow-prev,
+body.color-e67e22 .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-e67e22 .quantity .minus:hover,
+body.color-e67e22 .quantity .plus:hover,
+body.color-e67e22 .mejs-container .mejs-controls .mejs-time-rail .mejs-time-current  {
+	background-color:#e67e22;
+}
+body.color-e67e22 footer#theme-footer,
+body.color-e67e22 header#theme-header,
+body.color-e67e22 .top-nav ul li.current-menu-item:before,
+body.color-e67e22 #main-nav .menu-sub-content ,
+body.color-e67e22 #main-nav ul ul,
+body.color-e67e22 #check-also-box { 
+	border-top-color: #e67e22;
+}
+body.color-e67e22 .search-block:after {
+	border-right-color:#e67e22;
+}
+body.rtl.color-e67e22 .search-block:after {
+	border-left-color:#e67e22;
+}
+body.color-e67e22 #main-nav ul > li.menu-item-has-children:hover > a:after,
+body.color-e67e22 #main-nav ul > li.mega-menu:hover > a:after {
+	border-color:transparent transparent #e67e22;
+}
+body.color-e67e22 .widget.timeline-posts li a:hover,
+body.color-e67e22 .widget.timeline-posts li a:hover span.tie-date,
+body.color-e67e22 #style_Switcher h4 {
+	color: #e67e22;
+}
+body.color-e67e22 .widget.timeline-posts li a:hover span.tie-date:before {
+	background: #e67e22;
+	border-color: #e67e22;
+}
+body.color-e67e22 #order_review,
+body.color-e67e22 #order_review_heading {
+	border-color: #e67e22;
+}
+
+/**/
+
+body.color-e74c3c #main-nav,.cat-box-content,
+body.color-e74c3c #sidebar .widget-container,
+body.color-e74c3c .post-listing,
+body.color-e74c3c #commentform {
+	border-bottom-color: #e74c3c;
+}
+body.color-e74c3c .search-block .search-button,
+body.color-e74c3c #topcontrol,
+body.color-e74c3c #main-nav ul li.current-menu-item a,
+body.color-e74c3c #main-nav ul li.current-menu-item a:hover,
+body.color-e74c3c #main-nav ul li.current_page_parent a,
+body.color-e74c3c #main-nav ul li.current_page_parent a:hover,
+body.color-e74c3c #main-nav ul li.current-menu-parent a,
+body.color-e74c3c #main-nav ul li.current-menu-parent a:hover,
+body.color-e74c3c #main-nav ul li.current-page-ancestor a,
+body.color-e74c3c #main-nav ul li.current-page-ancestor a:hover,
+body.color-e74c3c .pagination span.current,
+body.color-e74c3c .share-post span.share-text,
+body.color-e74c3c .flex-control-paging li a.flex-active,
+body.color-e74c3c .ei-slider-thumbs li.ei-slider-element,
+body.color-e74c3c .review-percentage .review-item span span,
+body.color-e74c3c .review-final-score,
+body.color-e74c3c .button,
+body.color-e74c3c a.button,
+body.color-e74c3c a.more-link,
+body.color-e74c3c #main-content input[type="submit"],
+body.color-e74c3c .form-submit #submit,
+body.color-e74c3c #login-form .login-button,
+body.color-e74c3c .widget-feedburner .feedburner-subscribe,
+body.color-e74c3c input[type="submit"],
+body.color-e74c3c #buddypress button,
+body.color-e74c3c #buddypress a.button,
+body.color-e74c3c #buddypress input[type=submit],
+body.color-e74c3c #buddypress input[type=reset],
+body.color-e74c3c #buddypress ul.button-nav li a,
+body.color-e74c3c #buddypress div.generic-button a,
+body.color-e74c3c #buddypress .comment-reply-link,
+body.color-e74c3c #buddypress div.item-list-tabs ul li a span,
+body.color-e74c3c #buddypress div.item-list-tabs ul li.selected a,
+body.color-e74c3c #buddypress div.item-list-tabs ul li.current a,
+body.color-e74c3c #buddypress #members-directory-form div.item-list-tabs ul li.selected span,
+body.color-e74c3c #members-list-options a.selected,
+body.color-e74c3c #groups-list-options a.selected,
+body.color-e74c3c.dark-skin #buddypress div.item-list-tabs ul li a span,
+body.color-e74c3c.dark-skin #buddypress div.item-list-tabs ul li.selected a,
+body.color-e74c3c.dark-skin #buddypress div.item-list-tabs ul li.current a,
+body.color-e74c3c.dark-skin #members-list-options a.selected,
+body.color-e74c3c.dark-skin #groups-list-options a.selected,
+body.color-e74c3c .search-block-large .search-button,
+body.color-e74c3c #featured-posts .flex-next:hover,
+body.color-e74c3c #featured-posts .flex-prev:hover,
+body.color-e74c3c a.tie-cart span.shooping-count,
+body.color-e74c3c .woocommerce span.onsale,
+body.color-e74c3c.woocommerce-page span.onsale ,
+body.color-e74c3c.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-e74c3c.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-e74c3c #check-also-close,
+body.color-e74c3c a.post-slideshow-next,
+body.color-e74c3c a.post-slideshow-prev,
+body.color-e74c3c .widget_price_filter .ui-slider .ui-slider-handle,
+body.color-e74c3c .quantity .minus:hover,
+body.color-e74c3c .quantity .plus:hover,
+body.color-e74c3c .mejs-container .mejs-controls .mejs-time-rail .mejs-time-current  {
+	background-color:#e74c3c;
+}
+body.color-e74c3c footer#theme-footer,
+body.color-e74c3c header#theme-header,
+body.color-e74c3c .top-nav ul li.current-menu-item:before,
+body.color-e74c3c #main-nav .menu-sub-content ,
+body.color-e74c3c #main-nav ul ul,
+body.color-e74c3c #check-also-box { 
+	border-top-color: #e74c3c;
+}
+body.color-e74c3c .search-block:after {
+	border-right-color:#e74c3c;
+}
+body.rtl.color-e74c3c .search-block:after {
+	border-left-color:#e74c3c;
+}
+body.color-e74c3c #main-nav ul > li.menu-item-has-children:hover > a:after,
+body.color-e74c3c #main-nav ul > li.mega-menu:hover > a:after {
+	border-color:transparent transparent #e74c3c;
+}
+body.color-e74c3c .widget.timeline-posts li a:hover,
+body.color-e74c3c .widget.timeline-posts li a:hover span.tie-date,
+body.color-e74c3c #style_Switcher h4 {
+	color: #e74c3c;
+}
+body.color-e74c3c .widget.timeline-posts li a:hover span.tie-date:before {
+	background: #e74c3c;
+	border-color: #e74c3c;
+}
+body.color-e74c3c #order_review,
+body.color-e74c3c #order_review_heading {
+	border-color: #e74c3c;
+}
+
+
+/*   TABLET  : 768px -----------------------------   */
+    
+@media only screen and ( max-width: 767px ){
+	#style_Switcher{display:none;}
+}
